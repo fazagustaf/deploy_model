@@ -4,4 +4,4 @@ numpy
 imblearn
 category_encoders
 xgboost
-imblearn
+scikit-learn==1.7.1
