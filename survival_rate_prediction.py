@@ -59,7 +59,7 @@ with col1:
     st.write(data_customer.transpose())
 
 # Load model
-with open(r'final_model_complete.pkl', 'rb') as f:
+with open('final_model_complete.pkl', 'rb') as f:
     model_loaded = pickle.load(f)
     
 # Predict to data
